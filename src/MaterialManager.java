@@ -19,7 +19,8 @@ public class MaterialManager {
     public double getTotalCost() {
         double total = 0;
         for (Material material : materials) {
-            total += material.getCost();
+            if (material instanceof Discount)
+                total += ((Discount) material).getRealCost();
         }
         return total;
     }
