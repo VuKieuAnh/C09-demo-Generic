@@ -23,7 +23,8 @@ public class Main {
             System.out.println(material);
         }
 
-        System.out.println("Total cost of all material: " + materialManager.getTotalCost());
+        System.out.println("\nTotal cost of all material: " + materialManager.getTotalCost());
+        System.out.println("\nTotal real cost of all material: " + materialManager.getTotalRealCost());
 
         List<Material> sortedMaterials = materialManager.sortByCost();
         System.out.println("=== Materials sorted by cost ===");
@@ -31,5 +32,6 @@ public class Main {
             System.out.println(material);
         }
 
+        System.out.println("Value different between cost and real cost: " + (materialManager.getTotalCost() - materialManager.getTotalRealCost()));
     }
 }
