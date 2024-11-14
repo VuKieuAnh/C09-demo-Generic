@@ -19,7 +19,7 @@ public class MaterialManager {
     public double getTotalCost() {
         double total = 0;
         for (Material material : materials) {
-            total += material.getCost();
+            total += material.getAmount();
         }
         return total;
     }
