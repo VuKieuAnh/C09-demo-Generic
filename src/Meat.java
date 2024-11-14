@@ -39,6 +39,6 @@ public class Meat extends Material implements Discount {
 
     @Override
     public double getRealCost() {
-        return getCost() * (1 - 0.03);
+        return getAmount() * (1 - 0.03);
     }
 }

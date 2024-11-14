@@ -39,6 +39,6 @@ public class CrispyFlour extends Material implements Discount {
 
     @Override
     public double getRealCost() {
-        return getCost() * (1 - 0.06);
+        return getAmount() * (1 - 0.06);
     }
 }
