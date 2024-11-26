@@ -1,3 +1,10 @@
+package views;
+
+import controller.MaterialManager;
+import model.material.CrispyFlour;
+import model.material.Material;
+import model.material.Meat;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

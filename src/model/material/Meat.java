@@ -1,3 +1,5 @@
+package model.material;
+
 import java.time.LocalDate;
 
 public class Meat extends Material implements Discount {
@@ -18,7 +20,7 @@ public class Meat extends Material implements Discount {
 
     @Override
     public String toString() {
-        return "Meat{" +
+        return "model.material.Meat{" +
                 "id='" + getId() + '\'' +
                 ", name='" + getName() + '\'' +
                 ", manufacturingDate=" + getManufacturingDate() +

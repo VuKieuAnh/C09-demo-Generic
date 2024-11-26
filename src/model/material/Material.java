@@ -1,3 +1,5 @@
+package model.material;
+
 import java.time.LocalDate;
 
 public abstract class Material {
@@ -47,7 +49,7 @@ public abstract class Material {
 
     @Override
     public String toString() {
-        return "Material{" +
+        return "model.material.Material{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", manufacturingDate=" + manufacturingDate +

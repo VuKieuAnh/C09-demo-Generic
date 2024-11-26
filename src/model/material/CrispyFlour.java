@@ -1,3 +1,5 @@
+package model.material;
+
 import java.time.LocalDate;
 
 public class CrispyFlour extends Material implements Discount {
@@ -18,7 +20,7 @@ public class CrispyFlour extends Material implements Discount {
 
     @Override
     public String toString() {
-        return "CrispyFlour{" +
+        return "model.material.CrispyFlour{" +
                 "id='" + getId() + '\'' +
                 ", name='" + getName() + '\'' +
                 ", manufacturingDate=" + getManufacturingDate() +

@@ -1,3 +1,8 @@
+package controller;
+
+import model.material.Discount;
+import model.material.Material;
+
 import java.util.ArrayList;
 import java.util.List;
 
